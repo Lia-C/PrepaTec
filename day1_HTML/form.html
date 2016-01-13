@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+<title>Contact</title>
+</head>
+
+<body>
+
+<h4>Contact Us</h4>
+
+<form method="POST" onsubmit="alert('Thanks, ' + firstname.value + '!'); return false">
+
+  First name: <input type="text" name="firstname" placeholder="Lia" required><br>
+  Last name: <input type="text" name="lastname" placeholder="Coleman" required><br>
+  
+  <br>
+  
+  What gender are you? <br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+
+  <br>
+  
+  What date did you have the issue? <br>
+  <input type="date" name="date"><br>
+  <br>
+  
+  What type of issue did you have? <br>
+  <select name="issues">
+    <option value="cant_login">Can't log in</option>
+    <option value="forgot_password">I forgot my password</option>
+    <option value="data_gone">My data is gone</option>
+    <option value="other">Other</option>
+  </select> <br>
+  
+  <br>
+  
+  Your message: <br>
+  <textarea name="message" rows="10" cols="30" required></textarea><br>
+  
+  <br>
+  
+  <input type="submit" value="Submit">
+  
+</form>
+
+</body>
