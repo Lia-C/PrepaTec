@@ -1,0 +1,67 @@
+body {
+	background-image: url("http://p1.pichost.me/i/12/1347785.jpg");
+	background-size: cover;
+}
+
+
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+   /* text-shadow: 2px 2px 4px #482D46;*/
+}
+/*
+span{
+    color: blue;
+}*/
+
+img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid white;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.top {
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+	color: #FFFFFF;
+}
+
+.column-left{ 
+    float: left; 
+    width: 30%; 
+    padding: 5px;
+    background: rgba(225, 225, 225, .3)
+}
+
+.column-right{ 
+    float: right; 
+    width: 30%; 
+    padding: 5px;
+    background: rgba(225, 225, 225, .3);
+}
+
+.column-center{ 
+    display: inline-block; 
+    width: 30%; 
+    padding: 5px;
+    background: rgba(225, 225, 225, .3)
+}
